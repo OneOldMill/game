@@ -12,8 +12,8 @@ function myImageView(ver) {
      //alert("myImageFile java att= "+myImageFile);
      var img = document.createElement("img");
      img.src = myImageFile;
-     img.width = 250;
-     img.height = 300;
+//     img.width = 250;
+//     img.height = 300;
 //     document.write("\n");
 //     document.writeln();
      document.body.appendChild(img);
