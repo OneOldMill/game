@@ -3,12 +3,12 @@ function clickMe() {
 }
 
 function myImageView() {
-     alert("myImageView function");
+     alert("myImageView 4");
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
-     myImageFile = "images/" + myImageText + ".jpg";
-     //myImageFile = "/images/" + myImageText + ".jpg";
+     //myImageFile = "images/" + myImageText + ".jpg";
+     myImageFile = "/images/" + myImageText + ".jpg";
      alert("myImageFile java att= "+myImageFile);
      var img = document.createElement("img");
      img.src = myImageFile;
@@ -16,7 +16,7 @@ function myImageView() {
      img.height = 300;
 //     document.write("\n");
 //     document.writeln();
-     document.appendChild(img);
+     document.body.appendChild(img);
 }
 
 function myLinkView() {
