@@ -3,7 +3,7 @@ function clickMe() {
 }
 
 function myImageView(ver) {
-     alert("myImageView v"+ver);
+     //alert("myImageView v"+ver);
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
@@ -20,7 +20,7 @@ function myImageView(ver) {
 }
 
 function myLinkView(ver) {
-     alert("myLinkView v"+ver);
+     //alert("myLinkView v"+ver);
      var myLinkList = document.getElementById("myLinkList");
      var value = myLinkList.options[myLinkList.selectedIndex].value;
      var text = myLinkList.options[myLinkList.selectedIndex].text;
