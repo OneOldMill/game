@@ -16,7 +16,7 @@ function myImageView(ver) {
 //     img.height = 300;
 //     document.write("\n");
 //     document.writeln();
-     document.body.appendChild(img);
+//     document.body.appendChild(img);
      open(myImageFile, '_blank', "School");
 }
 
