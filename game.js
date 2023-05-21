@@ -6,9 +6,9 @@ function myImageView() {
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
-     myImageFile = "images/" + myImageText + ".jpg";
-     //myImageFile = "/images/" + myImageText + ".jpg";
-     //alert("myImageFile java att= "+myImageFile);
+     //myImageFile = "images/" + myImageText + ".jpg";
+     myImageFile = "/images/" + myImageText + ".jpg";
+     alert("myImageFile java att= "+myImageFile);
      var img = document.createElement("img");
      img.src = myImageFile;
      img.width = 250;
