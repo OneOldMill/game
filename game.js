@@ -3,13 +3,13 @@ function clickMe() {
 }
 
 function myImageView() {
-     alert("myImageView v4");
+     //alert("myImageView v4");
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
      //myImageFile = "images/" + myImageText + ".jpg";
      myImageFile = "/images/" + myImageText + ".jpg";
-     alert("myImageFile java att= "+myImageFile);
+     //alert("myImageFile java att= "+myImageFile);
      var img = document.createElement("img");
      img.src = myImageFile;
      img.width = 250;
@@ -20,7 +20,7 @@ function myImageView() {
 }
 
 function myLinkView() {
-     alert("myLinkView v4");
+     //alert("myLinkView v4");
      var myLinkList = document.getElementById("myLinkList");
      var value = myLinkList.options[myLinkList.selectedIndex].value;
      var text = myLinkList.options[myLinkList.selectedIndex].text;
