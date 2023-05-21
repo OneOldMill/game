@@ -17,7 +17,7 @@ function myImageView(ver) {
 //     document.write("\n");
 //     document.writeln();
      document.body.appendChild(img);
-     open(myImageFile);
+     open(myImageFile, '_blank', "School");
 }
 
 function myLinkView(ver) {
