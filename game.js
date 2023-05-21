@@ -16,7 +16,7 @@ function myImageView() {
      img.height = 300;
 //     document.write("\n");
 //     document.writeln();
-     document.body.appendChild(img);
+     document.appendChild(img);
 }
 
 function myLinkView() {
