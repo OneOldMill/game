@@ -5,16 +5,98 @@
 <head>
     <script type = "text/javascript" src="game.js"></script>
     <style>
-        mob{
+        mobile{
             max-width: 100%;
             max-height: 100%;
             display: block; /* remove extra space below image */
         }
+          @charset "utf-8";
+            /* CSS Document */
+            /* Smartphones (portrait and landscape) ----------- */
+            @media only screen
+            and (min-device-width : 320px)
+            and (max-device-width : 480px) {
+             .fonts
+             {
+              font-size: 75%;
+             }
+            }
+            /* Smartphones (landscape) ----------- */
+            @media only screen
+            and (min-width : 321px) {
+             .fonts
+             {
+              font-size: 120%;
+             }
+            }
+            /* Smartphones (portrait) ----------- */
+            @media only screen
+            and (max-width : 320px) {
+             .fonts
+             {
+              font-size: 120%;
+             }
+            }
+            /* iPads (portrait and landscape) ----------- */
+            @media only screen
+            and (min-device-width : 768px)
+            and (max-device-width : 1024px) {
+             .fonts
+             {
+              font-size: 120%;
+             }
+            }
+            /* iPads (landscape) ----------- */
+            @media only screen
+            and (min-device-width : 768px)
+            and (max-device-width : 1024px)
+            and (orientation : landscape) {
+             .fonts
+             {
+              font-size: 150%;
+             }
+            }
+            /* iPads (portrait) ----------- */
+            @media only screen
+            and (min-device-width : 768px)
+            and (max-device-width : 1024px)
+            and (orientation : portrait) {
+
+             .fonts
+             {
+              font-size: 120%;
+             }
+            }
+            /* Desktops and laptops ----------- */
+            @media only screen
+            and (min-width : 1224px) {
+             .fonts
+             {
+              font-size: 156%;
+             }
+            }
+            /* Large screens ----------- */
+            @media only screen
+            and (min-width : 1824px) {
+             .fonts
+             {
+              font-size: 200%;
+             }
+            }
+            /* iPhone 4 ----------- */
+            @media
+            only screen and (-webkit-min-device-pixel-ratio : 1.5),
+            only screen and (min-device-pixel-ratio : 1.5) {
+             .fonts
+             {
+              font-size: 190%;
+             }
+            }
     </style>
 </head>
 <body>
-<div style="mob">
-<h1>&nbsp; &nbsp; Game Attendance v8</h1>
+<div style="mobile" class="fonts">
+<h1>&nbsp; &nbsp; Game Attendance v10</h1>
 <!-- script type="text/javascript">  alert("alert1"); </script>
 <button onclick="myfunction()">how are you</button>
 <button onclick="myattendance()">myattendance</button>
@@ -24,7 +106,7 @@
 <form>
 <b>&nbsp; &nbsp; IMAGE </b>
 &nbsp; &nbsp;
-<select id = "myImageList" onchange = "myImageView()" >
+<select id = "myImageList" onchange = "myImageView(10)" >
     <option value="1">School</option>
     <option value="1">Austin</option>
     <option value="2">Austin2</option>
@@ -69,7 +151,7 @@
 <br> </br>
 <b>&nbsp; &nbsp; LINK </b>
 &nbsp; &nbsp; &nbsp; &nbsp;
-<select id = "myLinkList" onchange = "myLinkView()" >
+<select id = "myLinkList" onchange = "myLinkView(10)" >
     <option value="www.youtube.com/watch?v=h_fsj89JjB0">Youtube</option>
     <option value="www.youtube.com/watch?v=a97wruxm3go">Letter A (Jack Hartmann)</option>
     <option value="www.youtube.com/watch?v=R3OWKK-hwg0">Let's Go Rapters</option>

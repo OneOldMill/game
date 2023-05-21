@@ -2,8 +2,8 @@ function clickMe() {
   alert("You clicked me!");
 }
 
-function myImageView() {
-     alert("myImageView v8");
+function myImageView(ver) {
+     alert("myImageView v"+ver);
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
@@ -19,8 +19,8 @@ function myImageView() {
      document.body.appendChild(img);
 }
 
-function myLinkView() {
-     //alert("myLinkView v4");
+function myLinkView(ver) {
+     alert("myLinkView v"+ver);
      var myLinkList = document.getElementById("myLinkList");
      var value = myLinkList.options[myLinkList.selectedIndex].value;
      var text = myLinkList.options[myLinkList.selectedIndex].text;
