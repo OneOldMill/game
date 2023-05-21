@@ -3,7 +3,7 @@ function clickMe() {
 }
 
 function myImageView() {
-     //alert("myImageView v6");
+     alert("myImageView v7");
      var myImageList = document.getElementById("myImageList");
      var myImageValue = myImageList.options[myImageList.selectedIndex].value;
      var myImageText = myImageList.options[myImageList.selectedIndex].text;
