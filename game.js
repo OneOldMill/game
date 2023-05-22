@@ -19,7 +19,7 @@ function myImageView(ver) {
 //     document.writeln();
      document.body.appendChild(img);
 //     document.appendChild(img);
-     open(myImageFile, '_blank', "School");
+//     open(myImageFile, '_blank', "School");
 }
 
 function myLinkView(ver) {
