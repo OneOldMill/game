@@ -3,150 +3,68 @@
 <meta charset="UTF-8">
 <title>Austin Game</title>
 <head>
+    <link rel="stylesheet" type="text/css" href="ssMobileFit.css">
+    <link rel="stylesheet" type="text/css" href="ssAttendance.css">
     <script type = "text/javascript" src="game.js"></script>
-    <style>
-        mobile{
-            max-width: 100%;
-            max-height: 100%;
-            display: block; /* remove extra space below image */
-        }
-          @charset "utf-8";
-            /* CSS Document */
-            /* Smartphones (portrait and landscape) ----------- */
-            @media only screen
-            and (min-device-width : 320px)
-            and (max-device-width : 480px) {
-             .fonts
-             {
-              font-size: 75%;
-             }
-            }
-            /* Smartphones (landscape) ----------- */
-            @media only screen
-            and (min-width : 321px) {
-             .fonts
-             {
-              font-size: 120%;
-             }
-            }
-            /* Smartphones (portrait) ----------- */
-            @media only screen
-            and (max-width : 320px) {
-             .fonts
-             {
-              font-size: 120%;
-             }
-            }
-            /* iPads (portrait and landscape) ----------- */
-            @media only screen
-            and (min-device-width : 768px)
-            and (max-device-width : 1024px) {
-             .fonts
-             {
-              font-size: 120%;
-             }
-            }
-            /* iPads (landscape) ----------- */
-            @media only screen
-            and (min-device-width : 768px)
-            and (max-device-width : 1024px)
-            and (orientation : landscape) {
-             .fonts
-             {
-              font-size: 150%;
-             }
-            }
-            /* iPads (portrait) ----------- */
-            @media only screen
-            and (min-device-width : 768px)
-            and (max-device-width : 1024px)
-            and (orientation : portrait) {
-
-             .fonts
-             {
-              font-size: 120%;
-             }
-            }
-            /* Desktops and laptops ----------- */
-            @media only screen
-            and (min-width : 1224px) {
-             .fonts
-             {
-              font-size: 156%;
-             }
-            }
-            /* Large screens ----------- */
-            @media only screen
-            and (min-width : 1824px) {
-             .fonts
-             {
-              font-size: 200%;
-             }
-            }
-            /* iPhone 4 ----------- */
-            @media
-            only screen and (-webkit-min-device-pixel-ratio : 1.5),
-            only screen and (min-device-pixel-ratio : 1.5) {
-             .fonts
-             {
-              font-size: 190%;
-             }
-            }
-    </style>
 </head>
 <body>
 <div class="fonts">
-<h1 style="color:purple;">&nbsp; &nbsp; Austin Game (v20)</h1>
-<!-- script type="text/javascript">  alert("alert1"); </script>
-<button onclick="myfunction()">how are you</button>
-<button onclick="myattendance()">myattendance</button>
-<p>My first paragraph.</p>
--->
+<h1 style="color:purple;">&nbsp; &nbsp; Austin Game (v21)</h1>
 
 <form>
 <b>&nbsp; &nbsp; IMAGE </b>
 &nbsp; &nbsp;
 <select class="fonts" id = "myImageList" onchange = "myImageView(10)" >
     <option value="1">Friends</option>
-    <option value="1">Austin</option>
-    <option value="2">Austin2</option>
-    <option value="3">Amelia</option>
-    <option value="4">Adrian</option>
-    <option value="5">Aria</option>
-    <option value="6">Athena</option>
-    <option value="7">Ayla</option>
-    <option value="8">Bianca</option>
-    <option value="9">Cloe</option>
-    <option value="10">Colin</option>
-    <option value="11">Charlotte</option>
-    <option value="12">Desmond</option>
-    <option value="13">Ella</option>
-    <option value="14">Ellanora</option>
-    <option value="15">Felix</option>
-    <option value="16">Hedley</option>
-    <option value="17">Hudson</option>
-    <option value="18">Julien</option>
-    <option value="19">Kennedy</option>
-    <option value="20">Liliana</option>
-    <option value="21">Lochlan</option>
-    <option value="22">Leila</option>
-    <option value="23">Leo</option>
-    <option value="24">Luca</option>
-    <option value="25">Mateo</option>
-    <option value="26">Meloni</option>
-    <option value="27">Owen</option>
-    <option value="28">Odhran</option>
-    <option value="29">Wyatt</option>
-    <option value="30">Dempsi</option>
-    <option value="31">Ierullo</option>
-    <option value="32">Ryder</option>
-    <option value="33">Skye</option>
-    <option value="34">Rocky</option>
-    <option value="35">Rubble</option>
-    <option value="36">Zuma</option>
-    <option value="37">Marshall</option>
-    <option value="38">Chase</option>
-    <option value="39">Everest</option>
+    <option id="option-1" value="1">Austin</option>
+    <option id="option-2" value="2">Austin2</option>
+    <option id="option-3" value="3">Amelia</option>
+    <option id="option-4" value="4">Adrian</option>
+    <option id="option-5" value="5">Aria</option>
+    <option id="option-6" value="6">Athena</option>
+    <option id="option-7" value="7">Ayla</option>
+    <option id="option-8" value="8">Bianca</option>
+    <option id="option-9" value="9">Cloe</option>
+    <option id="option-10" value="10">Colin</option>
+    <option id="option-11" value="11">Charlotte</option>
+    <option id="option-12" value="12">Desmond</option>
+    <option id="option-13" value="13">Ella</option>
+    <option id="option-14" value="14">Ellanora</option>
+    <option id="option-15" value="15">Felix</option>
+    <option id="option-16" value="16">Hedley</option>
+    <option id="option-17" value="17">Hudson</option>
+    <option id="option-18" value="18">Julien</option>
+    <option id="option-19" value="19">Kennedy</option>
+    <option id="option-20" value="20">Liliana</option>
+    <option id="option-21" value="21">Lochlan</option>
+    <option id="option-22" value="22">Leila</option>
+    <option id="option-23" value="23">Leo</option>
+    <option id="option-24" value="24">Luca</option>
+    <option id="option-25" value="25">Mateo</option>
+    <option id="option-26" value="26">Meloni</option>
+    <option id="option-27" value="27">Owen</option>
+    <option id="option-28" value="28">Odhran</option>
+    <option id="option-29" value="29">Wyatt</option>
+    <option id="option-30" value="30">Dempsi</option>
+    <option id="option-31" value="31">Ierullo</option>
+    <option id="option-32" value="32">Ryder</option>
+    <option id="option-33" value="33">Skye</option>
+    <option id="option-34" value="34">Rocky</option>
+    <option id="option-35" value="35">Rubble</option>
+    <option id="option-36" value="36">Zuma</option>
+    <option id="option-37" value="37">Marshall</option>
+    <option id="option-38" value="38">Chase</option>
+    <option id="option-39" value="39">Everest</option>
+    <option id="option-40" value="40">Garfield</option>
+    <option id="option-41" value="41">0</option>
+    <option id="option-42" value="42">1</option>
+    <option id="option-43" value="43">2</option>
+    <option id="option-44" value="44">3</option>
+    <option id="option-45" value="45">4</option>
+    <option id="option-46" value="46">5</option>
+    <option id="option-47" value="47">7</option>
+    <option id="option-48" value="48">8</option>
+    <option id="option-49" value="49">9</option>
 </select>
 
 <br> </br>
