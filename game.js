@@ -145,15 +145,17 @@ function myGroupView() {
     }
 
      if (xGroupValue == "5") {
-            appendNewOption(1,"Baseball")
+            appendNewOption(1,"Austin")
             appendNewOption(2,"Aria-b")
             appendNewOption(3,"Blake")
             appendNewOption(4,"David")
-            appendNewOption(5,"Joshua")
-            appendNewOption(6,"Kadion")
-            appendNewOption(7,"Matthew")
-            appendNewOption(8,"Mazie")
-            appendNewOption(9,"Venessa")
+            appendNewOption(5,"Jack")
+            appendNewOption(6,"Joshua")
+            appendNewOption(7,"Kaidon")
+            appendNewOption(8,"Maisie")
+            appendNewOption(9,"Matthew")
+            appendNewOption(10,"Sophia")
+            appendNewOption(11,"Vanessa")
 
             var img = document.createElement("img");
             img.src = "images/baseball.jpg";
@@ -161,7 +163,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "6") {
-            appendNewOption(1,"Lego")
+            appendNewOption(1,"Austin")
             appendNewOption(2,"Billy")
             appendNewOption(3,"Issac")
             appendNewOption(4,"Jacob")
