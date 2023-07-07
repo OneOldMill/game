@@ -9,13 +9,35 @@
 </head>
 <body>
 <div class="fonts">
-<h1 style="color:purple;">&nbsp; &nbsp; Attendance Game (v27)</h1>
+<h1 style="color:purple;">&nbsp; &nbsp; Attendance Game (v28)</h1>
 
 <form>
-<b>&nbsp; &nbsp; IMAGE </b>
+<b>&nbsp; &nbsp; GROUP  </b>
 &nbsp; &nbsp;
-<select class="fonts" style="color:purple" id = "myImageList" onchange = "myImageView(10)" >
-    <option value="1">Friends</option>
+<select class="fonts" style="color:purple; margin-top: 0px; position:absolute; left:150px;" id = "myGroupList" onchange = "myGroupView(); return false;" >
+    <option value="1">Group</option>
+    <option id="group1" value="1">St. Pius</option>
+    <option id="group2" value="2">Paw Patrol</option>
+    <option id="group3" value="3">A-Z</option>
+    <option id="group4" value="4">A-Z-9</option>
+    <option id="group5" value="5">Baseball</option>
+    <option id="group6" value="6">Lego</option>
+</select>
+
+<br> </br>
+<b>&nbsp; &nbsp; NAMES </b>
+&nbsp; &nbsp;
+<select class="fonts" style="color:purple; margin-top: 0px; position:absolute; left:150px;" id = "myFriendList" onchange = "myFriendView(); return false;" >
+    <option value="1">Names</option>
+    <option id="friend1" value="1">f1</option>
+    <option id="friend2" value="2">f2</option>
+</select>
+
+<br> </br>
+    <b>&nbsp; &nbsp; ALL  </b>
+&nbsp; &nbsp;
+<select class="fonts" style="color:purple; margin-top: 0px; position:absolute; left:150px;" id = "myImageList" onchange = "myImageView()" >
+    <option value="1">All</option>
     <option id="option-1" value="1">Austin</option>
     <option id="option-2" value="2">Austin2</option>
     <option id="option-3" value="3">Amelia</option>
@@ -99,9 +121,9 @@
 </select>
 
 <br> </br>
-<b>&nbsp; &nbsp; LINK </b>
+<b>&nbsp; &nbsp; LINK  </b>
 &nbsp; &nbsp; &nbsp; &nbsp;
-<select class="fonts" id = "myLinkList" onchange = "myLinkView(10)" >
+<select class="fonts" style="color:purple; margin-top: 0px; position:absolute; left:150px;" id="myLinkList" onchange = "myLinkView()" >
     <option value="www.youtube.com/watch?v=h_fsj89JjB0">Video</option>
     <option value="www.youtube.com/watch?v=a97wruxm3go">Letter A (Jack Hartmann)</option>
     <option value="www.youtube.com/watch?v=R3OWKK-hwg0">Let's Go Rapters</option>
