@@ -145,6 +145,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "5") {
+            appendNewOption(1,"Baseball")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Aria-b")
             appendNewOption(3,"Blake")
@@ -163,6 +164,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "6") {
+            appendNewOption(1,"Lego")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Billy")
             appendNewOption(3,"Issac")
