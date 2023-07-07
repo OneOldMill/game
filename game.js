@@ -72,6 +72,10 @@ function myGroupView() {
             appendNewOption(31, "Ierullo")
             appendNewOption(32, "2022 JK SK")
             appendNewOption(33, "2023 JK SK")
+
+            var img = document.createElement("img");
+            img.src = "images/austin.jpg";
+            document.body.appendChild(img);
     }
      if (xGroupValue == "2") {
             appendNewOption(1, "Ryder")
@@ -83,6 +87,10 @@ function myGroupView() {
             appendNewOption(7, "Chase")
             appendNewOption(8, "Everest")
             appendNewOption(9, "Garfield")
+
+            var img = document.createElement("img");
+            img.src = "images/ryder.jpg";
+            document.body.appendChild(img);
     }
      if (xGroupValue == "3") {
             appendNewOption(1, "A-Z")
@@ -112,6 +120,10 @@ function myGroupView() {
             appendNewOption(25, "X")
             appendNewOption(26, "Y")
             appendNewOption(27, "Z")
+
+            var img = document.createElement("img");
+            img.src = "images/a-z.jpg";
+            document.body.appendChild(img);
     }
 
      if (xGroupValue == "4") {
@@ -126,14 +138,39 @@ function myGroupView() {
             appendNewOption(9, "7")
             appendNewOption(10, "8")
             appendNewOption(11, "9")
+
+            var img = document.createElement("img");
+            img.src = "images/a-z-9.jpg";
+            document.body.appendChild(img);
     }
 
      if (xGroupValue == "5") {
             appendNewOption(1,"Baseball")
+            appendNewOption(2,"Aria-b")
+            appendNewOption(3,"Blake")
+            appendNewOption(4,"David")
+            appendNewOption(5,"Joshua")
+            appendNewOption(6,"Kadion")
+            appendNewOption(7,"Matthew")
+            appendNewOption(8,"Mazie")
+            appendNewOption(9,"Venessa")
+
+            var img = document.createElement("img");
+            img.src = "images/baseball.jpg";
+            document.body.appendChild(img);
     }
 
      if (xGroupValue == "6") {
             appendNewOption(1,"Lego")
+            appendNewOption(2,"Billy")
+            appendNewOption(3,"Issac")
+            appendNewOption(4,"Jacob")
+            appendNewOption(5,"Zack")
+            appendNewOption(5,"Veronica-t")
+
+            var img = document.createElement("img");
+            img.src = "images/lego.jpg";
+            document.body.appendChild(img);
     }
 
     return false;
@@ -144,8 +181,8 @@ function myFriendView() {
      var myFriendList = document.getElementById("myFriendList");
      var myFriendValue = myFriendList.options[myFriendList.selectedIndex].value;
      var myFriendText = myFriendList.options[myFriendList.selectedIndex].text;
-     myFriendFile = "Images/" + myFriendText.toLowerCase() + ".jpg";
-     //myFriendFile = "/Images/" + myFriendText + ".jpg";
+     myFriendFile = "images/" + myFriendText.toLowerCase() + ".jpg";
+     //myFriendFile = "/images/" + myFriendText + ".jpg";
      //alert("myFriendFile java att= "+myFriendFile);
      var img = document.createElement("img");
 //     var img = new Friend();
