@@ -39,9 +39,10 @@ function myGroupView() {
     removeOptions(document.getElementById('myFriendList'));
 
      if (xGroupValue == "1") {
-            appendNewOption(1,"Austin")
-            appendNewOption(2,"Austin2")
-            appendNewOption(3,"Amelia")
+            appendNewOption(1, "Friends")
+            appendNewOption(1, "Austin")
+            appendNewOption(2, "Austin2")
+            appendNewOption(3,  "Amelia")
             appendNewOption(4, "Adrian")
             appendNewOption(5, "Aria")
             appendNewOption(6, "Athena")
@@ -74,10 +75,11 @@ function myGroupView() {
             appendNewOption(33, "2023 JK SK")
 
             var img = document.createElement("img");
-            img.src = "images/austin.jpg";
+            img.src = "images/st pius.jpg";
             document.body.appendChild(img);
     }
      if (xGroupValue == "2") {
+            appendNewOption(1, "Friends")
             appendNewOption(1, "Ryder")
             appendNewOption(2, "Skye")
             appendNewOption(3, "Rocky")
@@ -93,7 +95,7 @@ function myGroupView() {
             document.body.appendChild(img);
     }
      if (xGroupValue == "3") {
-            appendNewOption(1, "A-Z")
+            appendNewOption(1, "Friends")
             appendNewOption(2, "A")
             appendNewOption(3, "B")
             appendNewOption(4, "C")
@@ -127,7 +129,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "4") {
-            appendNewOption(1, "A-Z-9")
+            appendNewOption(1, "Friends")
             appendNewOption(2, "0")
             appendNewOption(3, "1")
             appendNewOption(4, "2")
@@ -145,7 +147,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "5") {
-            appendNewOption(1,"Baseball")
+            appendNewOption(1,"Friends")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Aria-b")
             appendNewOption(3,"Blake")
@@ -164,7 +166,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "6") {
-            appendNewOption(1,"Lego")
+            appendNewOption(1,"Friends")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Billy")
             appendNewOption(3,"Issac")
