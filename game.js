@@ -39,7 +39,7 @@ function myGroupView() {
     removeOptions(document.getElementById('myFriendList'));
 
      if (xGroupValue == "1") {
-            appendNewOption(1, "Friends")
+            appendNewOption(1, "St Pius list")
             appendNewOption(1, "Austin")
             appendNewOption(2, "Austin2")
             appendNewOption(3,  "Amelia")
@@ -79,7 +79,7 @@ function myGroupView() {
             document.body.appendChild(img);
     }
      if (xGroupValue == "2") {
-            appendNewOption(1, "Friends")
+            appendNewOption(1, "Paw Patrol list")
             appendNewOption(1, "Ryder")
             appendNewOption(2, "Skye")
             appendNewOption(3, "Rocky")
@@ -94,8 +94,10 @@ function myGroupView() {
             img.src = "images/ryder.jpg";
             document.body.appendChild(img);
     }
-     if (xGroupValue == "3") {
-            appendNewOption(1, "Friends")
+
+    if (xGroupValue == "3") {
+            appendNewOption(1, "A-Z-9 list")
+            appendNewOption(1, "A-Z-9 list")
             appendNewOption(2, "A")
             appendNewOption(3, "B")
             appendNewOption(4, "C")
@@ -122,32 +124,24 @@ function myGroupView() {
             appendNewOption(25, "X")
             appendNewOption(26, "Y")
             appendNewOption(27, "Z")
-
-            var img = document.createElement("img");
-            img.src = "images/a-z.jpg";
-            document.body.appendChild(img);
-    }
-
-     if (xGroupValue == "4") {
-            appendNewOption(1, "Friends")
-            appendNewOption(2, "0")
-            appendNewOption(3, "1")
-            appendNewOption(4, "2")
-            appendNewOption(5, "3")
-            appendNewOption(6, "4")
-            appendNewOption(7, "5")
-            appendNewOption(8, "6")
-            appendNewOption(9, "7")
-            appendNewOption(10, "8")
-            appendNewOption(11, "9")
+            appendNewOption(30, "0")
+            appendNewOption(31, "1")
+            appendNewOption(32, "2")
+            appendNewOption(33, "3")
+            appendNewOption(34, "4")
+            appendNewOption(35, "5")
+            appendNewOption(36, "6")
+            appendNewOption(37, "7")
+            appendNewOption(38, "8")
+            appendNewOption(39, "9")
 
             var img = document.createElement("img");
             img.src = "images/a-z-9.jpg";
             document.body.appendChild(img);
     }
 
-     if (xGroupValue == "5") {
-            appendNewOption(1,"Friends")
+     if (xGroupValue == "4") {
+            appendNewOption(1,"Baseball list")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Aria-b")
             appendNewOption(3,"Blake")
@@ -165,8 +159,8 @@ function myGroupView() {
             document.body.appendChild(img);
     }
 
-     if (xGroupValue == "6") {
-            appendNewOption(1,"Friends")
+     if (xGroupValue == "5") {
+            appendNewOption(1,"Lego list")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Billy")
             appendNewOption(3,"Issac")
@@ -179,6 +173,93 @@ function myGroupView() {
 
             var img = document.createElement("img");
             img.src = "images/lego.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "6") {
+            appendNewOption(1,"MLB list")
+            appendNewOption(1,"Toronto Blue Jays")
+            appendNewOption(2,"Tampa Bay Rays")
+            appendNewOption(3,"New York Yankees")
+            appendNewOption(4,"Boston Redsox")
+            appendNewOption(5,"Baltimore Orioles")
+            appendNewOption(6,"Chicago White Sox")
+            appendNewOption(7,"Cleveland Indians")
+            appendNewOption(8,"Detroit Tigers")
+            appendNewOption(9,"Kansas City Royals")
+            appendNewOption(10,"Minnesota Twins")
+            appendNewOption(11,"Houston Astros")
+            appendNewOption(12,"Los Angeles Angels")
+            appendNewOption(13,"Oakland Athletic")
+            appendNewOption(14,"Seattle Mariners")
+            appendNewOption(15,"Toronto Blue Jays")
+            appendNewOption(16,"Texas Rangers")
+            appendNewOption(17,"Atlanta Braves")
+            appendNewOption(18,"Miami Marlins")
+            appendNewOption(19,"New York Mets")
+            appendNewOption(20,"Philadelphia Phillies")
+            appendNewOption(21,"Washington Nationals")
+            appendNewOption(22,"Chicago Cubs")
+            appendNewOption(23,"Cincinnati Reds")
+            appendNewOption(24,"Milwaukee Brewers")
+            appendNewOption(25,"Pittsburgh Pirates")
+            appendNewOption(26,"StLouis Cardinals")
+            appendNewOption(27,"Arizona Diamondbacks")
+            appendNewOption(28,"Colorado Rockies")
+            appendNewOption(29,"Los Angeles Dodgers")
+            appendNewOption(30,"San Diego Padres")
+            appendNewOption(31,"San Francisco Giants")
+
+            var img = document.createElement("img");
+            img.src = "images/mlb.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "7") {
+            appendNewOption(1,"NFL list")
+            appendNewOption(1,"NFL1")
+
+            var img = document.createElement("img");
+            img.src = "images/nfl.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "8") {
+            appendNewOption(1,"NBA list")
+            appendNewOption(1,"NBA1")
+
+            var img = document.createElement("img");
+            img.src = "images/nba.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "9") {
+            appendNewOption(1,"NHL list")
+            appendNewOption(1,"NHL1")
+
+            var img = document.createElement("img");
+            img.src = "images/nhl.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "10") {
+            appendNewOption(1,"Car list")
+            appendNewOption(1,"Subaru")
+            appendNewOption(2,"Toyota")
+            appendNewOption(3,"Lexus")
+
+            var img = document.createElement("img");
+            img.src = "images/car.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "11") {
+            appendNewOption(1,"Truck list")
+            appendNewOption(1,"Garbage truck")
+            appendNewOption(2,"Excavator")
+
+            var img = document.createElement("img");
+            img.src = "images/truck.jpg";
             document.body.appendChild(img);
     }
 

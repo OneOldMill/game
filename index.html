@@ -9,122 +9,40 @@
 </head>
 <body>
 <div class="fonts">
-<h1 style="color:purple;">&nbsp; &nbsp; Attendance Game (v29.1)</h1>
+<h1 style="color:purple;">&nbsp; &nbsp; Attendance Game (v29.2)</h1>
 
 <form>
 <b style="position: relative; left:20px; top: 10px;">  GROUP</b>
 &nbsp; &nbsp;
 <select class="fonts" style="color:purple; position: relative; left:20px; top: 10px;" id = "myGroupList" onchange = "myGroupView(); return false;" >
-    <option value="1">Group</option>
+    <option value="1">list</option>
     <option id="group1" value="1">St. Pius</option>
     <option id="group2" value="2">Paw Patrol</option>
-    <option id="group3" value="3">A-Z</option>
-    <option id="group4" value="4">A-Z-9</option>
-    <option id="group5" value="5">Baseball</option>
-    <option id="group6" value="6">Lego</option>
+    <option id="group3" value="3">A-Z-9</option>
+    <option id="group4" value="4">Baseball</option>
+    <option id="group5" value="5">Lego</option>
+    <option id="group6" value="6">MLB</option>
+    <option id="group7" value="7">NFL</option>
+    <option id="group8" value="8">NBA</option>
+    <option id="group9" value="9">NHL</option>
+    <option id="group10" value="10">Car</option>
+    <option id="group11" value="11">Truck</option>
 </select>
 
 <br> </br>
-<b style="position: relative; left:20px; top: 10px;">  NAMES </b>
+<b style="position: relative; left:20px; top: 10px;">  FRIEND </b>
 &nbsp; &nbsp;
-<select class="fonts" style="color:purple; position: relative; left:20px; top: 10px;" id = "myFriendList" onchange = "myFriendView(); return false;" >
-    <option value="1">Names</option>
-    <option id="friend1" value="1">f1</option>
-    <option id="friend2" value="2">f2</option>
-</select>
-
-<br> </br>
-<b style="position: relative; left:20px; top: 10px;">  WHOLE</b>
-&nbsp; &nbsp;
-<select class="fonts" style="color:purple; position: relative; left:20px; top: 10px;" id = "myImageList" onchange = "myImageView()" >
-    <option value="1">All</option>
-    <option id="option-1" value="1">Austin</option>
-    <option id="option-2" value="2">Austin2</option>
-    <option id="option-3" value="3">Amelia</option>
-    <option id="option-4" value="4">Adrian</option>
-    <option id="option-5" value="5">Aria</option>
-    <option id="option-6" value="6">Athena</option>
-    <option id="option-7" value="7">Ayla</option>
-    <option id="option-8" value="8">Bianca</option>
-    <option id="option-9" value="9">Cloe</option>
-    <option id="option-10" value="10">Colin</option>
-    <option id="option-11" value="11">Charlotte</option>
-    <option id="option-12" value="12">Desmond</option>
-    <option id="option-13" value="13">Ella</option>
-    <option id="option-14" value="14">Ellanora</option>
-    <option id="option-15" value="15">Felix</option>
-    <option id="option-16" value="16">Hedley</option>
-    <option id="option-17" value="17">Hudson</option>
-    <option id="option-18" value="18">Julien</option>
-    <option id="option-19" value="19">Kennedy</option>
-    <option id="option-20" value="20">Liliana</option>
-    <option id="option-21" value="21">Lochlan</option>
-    <option id="option-22" value="22">Leila</option>
-    <option id="option-23" value="23">Leo</option>
-    <option id="option-24" value="24">Luca</option>
-    <option id="option-25" value="25">Mateo</option>
-    <option id="option-26" value="26">Meloni</option>
-    <option id="option-27" value="27">Owen</option>
-    <option id="option-28" value="28">Odhran</option>
-    <option id="option-29" value="29">Wyatt</option>
-    <option id="option-30" value="30">Dempsi</option>
-    <option id="option-31" value="31">Ierullo</option>
-    <option id="option-32" value="32">Ryder</option>
-    <option id="option-33" value="33">Skye</option>
-    <option id="option-34" value="34">Rocky</option>
-    <option id="option-35" value="35">Rubble</option>
-    <option id="option-36" value="36">Zuma</option>
-    <option id="option-37" value="37">Marshall</option>
-    <option id="option-38" value="38">Chase</option>
-    <option id="option-39" value="39">Everest</option>
-    <option id="option-40" value="40">Garfield</option>
-    <option id="option-41" value="41">0</option>
-    <option id="option-42" value="42">1</option>
-    <option id="option-43" value="43">2</option>
-    <option id="option-44" value="44">3</option>
-    <option id="option-45" value="45">4</option>
-    <option id="option-46" value="46">5</option>
-    <option id="option-47" value="47">6</option>
-    <option id="option-48" value="48">7</option>
-    <option id="option-49" value="49">8</option>
-    <option id="option-50" value="50">9</option>
-    <option id="option-51" value="51">A-Z</option>
-    <option id="option-52" value="52">A-Z-9</option>
-    <option id="option-53" value="53">A</option>
-    <option id="option-54" value="54">B</option>
-    <option id="option-55" value="55">C</option>
-    <option id="option-56" value="56">D</option>
-    <option id="option-57" value="57">E</option>
-    <option id="option-58" value="58">F</option>
-    <option id="option-59" value="59">G</option>
-    <option id="option-60" value="60">H</option>
-    <option id="option-61" value="61">I</option>
-    <option id="option-62" value="62">J</option>
-    <option id="option-63" value="63">K</option>
-    <option id="option-64" value="64">L</option>
-    <option id="option-65" value="65">M</option>
-    <option id="option-66" value="66">N</option>
-    <option id="option-67" value="67">O</option>
-    <option id="option-68" value="68">P</option>
-    <option id="option-69" value="69">Q</option>
-    <option id="option-70" value="70">R</option>
-    <option id="option-71" value="71">S</option>
-    <option id="option-72" value="72">T</option>
-    <option id="option-73" value="73">U</option>
-    <option id="option-74" value="74">V</option>
-    <option id="option-75" value="75">W</option>
-    <option id="option-76" value="76">X</option>
-    <option id="option-77" value="77">Y</option>
-    <option id="option-78" value="78">Z</option>
-    <option id="option-79" value="79">2022 JK SK</option>
-    <option id="option-80" value="80">2023 JK SK</option>
+<select class="fonts" style="color:purple; position: relative; left:13px; top: 10px;" id = "myFriendList" onchange = "myFriendView(); return false;" >
+    <option value="1">list</option>
+    <option id="friend1" value="1">l1</option>
+    <option id="friend2" value="2">l2</option>
 </select>
 
 <br> </br>
 <b style="position: relative; left:20px; top: 10px;">  LINK  </b>
 &nbsp; &nbsp; &nbsp; &nbsp;
-<select class="fonts" style="color:purple; position: relative; left:20px; top: 10px;" id="myLinkList" onchange = "myLinkView()" >
-    <option value="www.youtube.com/watch?v=h_fsj89JjB0">Video</option>
+<select class="fonts" style="color:purple; position: relative; left:18px; top: 10px;" id="myLinkList" onchange = "myLinkView()" >
+    <option value="www.youtube.com/watch?v=h_fsj89JjB0">list</option>
     <option value="www.youtube.com/watch?v=a97wruxm3go">Letter A (Jack Hartmann)</option>
     <option value="www.youtube.com/watch?v=R3OWKK-hwg0">Let's Go Rapters</option>
     <option value="www.youtube.com/watch?v=jkG2dLl0Gso">Go Leafs Go</option>
