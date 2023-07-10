@@ -217,7 +217,10 @@ function myGroupView() {
 
      if (xGroupValue == "7") {
             appendNewOption(1,"NFL list")
-            appendNewOption(1,"NFL1")
+            appendNewOption(1,"Cleveland Browns")
+            appendNewOption(2,"Kansas City Chiefs")
+            appendNewOption(3,"Miami Dolphins")
+            appendNewOption(4,"San Francisco 49ers")
 
             var img = document.createElement("img");
             img.src = "images/nfl.jpg";
@@ -226,7 +229,10 @@ function myGroupView() {
 
      if (xGroupValue == "8") {
             appendNewOption(1,"NBA list")
-            appendNewOption(1,"NBA1")
+            appendNewOption(1,"Toronto Raptors")
+            appendNewOption(2,"Boston Celtics")
+            appendNewOption(3,"Chicago Bulls")
+            appendNewOption(4,"Los Angeles Lakers")
 
             var img = document.createElement("img");
             img.src = "images/nba.jpg";
@@ -235,7 +241,10 @@ function myGroupView() {
 
      if (xGroupValue == "9") {
             appendNewOption(1,"NHL list")
-            appendNewOption(1,"NHL1")
+            appendNewOption(1,"Toronto Maple Leafs")
+            appendNewOption(2,"Ottawa Senators")
+            appendNewOption(3,"Pittsburgh Penguins")
+            appendNewOption(4,"Edmonton Oilers")
 
             var img = document.createElement("img");
             img.src = "images/nhl.jpg";
@@ -260,6 +269,18 @@ function myGroupView() {
 
             var img = document.createElement("img");
             img.src = "images/truck.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "12") {
+            appendNewOption(1,"Jack of Sports list")
+            appendNewOption(1,"Alexander")
+            appendNewOption(2,"Blake")
+            appendNewOption(3,"Julien")
+            appendNewOption(4,"Elliia")
+
+            var img = document.createElement("img");
+            img.src = "images/sports science.jpg";
             document.body.appendChild(img);
     }
 
