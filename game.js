@@ -278,6 +278,7 @@ function myGroupView() {
             appendNewOption(2,"Blake")
             appendNewOption(3,"Julien")
             appendNewOption(4,"Elliia")
+            appendNewOption(5,"Thomas-i")
 
             var img = document.createElement("img");
             img.src = "images/jackofsports.jpg";
