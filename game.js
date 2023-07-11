@@ -280,7 +280,7 @@ function myGroupView() {
             appendNewOption(4,"Elliia")
 
             var img = document.createElement("img");
-            img.src = "images/sports science.jpg";
+            img.src = "images/jack of sports.jpg";
             document.body.appendChild(img);
     }
 
