@@ -358,7 +358,7 @@ function myGroupView() {
             appendNewOption(2,"Ben")
             appendNewOption(3,"Blake")
             appendNewOption(4,"Ellia")
-            appendNewOption(5,"Ellief")
+            appendNewOption(5,"Evelyn")
             appendNewOption(6,"Julien")
             appendNewOption(7,"Thomas-i")
 
