@@ -367,6 +367,17 @@ function myGroupView() {
             document.body.appendChild(img);
     }
 
+     if (xGroupValue == "13") {
+            appendNewOption(1,"aqua list")
+            appendNewOption(1,"splash pad")
+            appendNewOption(2,"Kensi")
+            appendNewOption(3,"Ellette")
+
+            var img = document.createElement("img");
+            img.src = "images/aqua.jpg";
+            document.body.appendChild(img);
+    }
+
     return false;
 }
 
