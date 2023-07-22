@@ -69,8 +69,8 @@ function myGroupView() {
             appendNewOption(27, "Owen")
             appendNewOption(28, "Odhran")
             appendNewOption(29, "Wyatt")
-            appendNewOption(30, "Dempsi")
-            appendNewOption(31, "Ierullo")
+            appendNewOption(30, "Dempsi-t")
+            appendNewOption(31, "Ierullo-t")
             appendNewOption(32, "2022 JK SK")
             appendNewOption(33, "2023 JK SK")
 
@@ -359,8 +359,9 @@ function myGroupView() {
             appendNewOption(3,"Blake")
             appendNewOption(4,"Ellia")
             appendNewOption(5,"Evelyn")
-            appendNewOption(6,"Julien")
-            appendNewOption(7,"Thomas-i")
+            appendNewOption(6,"Filia")
+            appendNewOption(7,"Julien")
+            appendNewOption(8,"Thomas-i")
 
             var img = document.createElement("img");
             img.src = "images/jackofsports.jpg";
