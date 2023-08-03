@@ -369,6 +369,24 @@ function myGroupView() {
     }
 
      if (xGroupValue == "13") {
+            appendNewOption(1,"Art Camp list")
+            appendNewOption(1,"Keyin")
+            appendNewOption(2,"Hugo")
+            appendNewOption(3,"Ian")
+            appendNewOption(4,"Ethan")
+            appendNewOption(5,"Thelis")
+            appendNewOption(6,"Hathen")
+            appendNewOption(7,"Philix")
+            appendNewOption(8,"Jennifer-i")
+            appendNewOption(9,"Sofia-i")
+            appendNewOption(10,"Gisel-i")
+
+            var img = document.createElement("img");
+            img.src = "images/jackofsports.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "14") {
             appendNewOption(1,"aqua list")
             appendNewOption(1,"splash pad")
             appendNewOption(2,"Kensi")
