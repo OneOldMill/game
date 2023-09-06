@@ -39,7 +39,33 @@ function myGroupView() {
     removeOptions(document.getElementById('myFriendList'));
 
      if (xGroupValue == "1") {
-            appendNewOption(1, "St Pius list")
+            appendNewOption(1, "St Pius - Grade 1")
+            appendNewOption(1, "Austin")
+            appendNewOption(2, "Adrian")
+            appendNewOption(3, "Amedeo")
+            appendNewOption(4, "Ayla")
+            appendNewOption(5, "Charlotte")
+            appendNewOption(6, "Chloe B")
+            appendNewOption(7, "Chloe L")
+            appendNewOption(8, "Elenora")
+            appendNewOption(9, "Elia")
+            appendNewOption(10, "Georgena")
+            appendNewOption(11, "Hadley")
+            appendNewOption(12, "Isabel")
+            appendNewOption(13, "Isla")
+            appendNewOption(14, "Julian")
+            appendNewOption(15, "Lochlan")
+            appendNewOption(16, "Maisie")
+            appendNewOption(17, "Paul")
+            appendNewOption(18, "Remy")
+            appendNewOption(19, "Sebastian")
+
+            var img = document.createElement("img");
+            img.src = "images/grade1.jpg";
+            document.body.appendChild(img);
+    }
+     if (xGroupValue == "1A") {
+            appendNewOption(1, "St Pius - SK")
             appendNewOption(1, "Austin")
             appendNewOption(2, "Austin2")
             appendNewOption(3,  "Amelia")
