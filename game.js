@@ -104,6 +104,13 @@ function myGroupView() {
             img.src = "images/st pius.jpg";
             document.body.appendChild(img);
     }
+     if (xGroupValue == "2A") {
+            appendNewOption(1, "Sign Language list")
+
+            var img = document.createElement("img");
+            img.src = "images/sign language.jpg";
+            document.body.appendChild(img);
+    }
      if (xGroupValue == "2") {
             appendNewOption(1, "Paw Patrol list")
             appendNewOption(1, "Ryder")
