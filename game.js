@@ -188,7 +188,7 @@ function myGroupView() {
             appendNewOption(11,"Vanessa")
 
             var img = document.createElement("img");
-            img.src = "images/baseball.jpg";
+            img.src = "images/mg baseball.jpg";
             document.body.appendChild(img);
     }
 
