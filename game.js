@@ -64,6 +64,13 @@ function myGroupView() {
             img.src = "images/grade1.jpg";
             document.body.appendChild(img);
     }
+     if (xGroupValue == "1C") {
+            appendNewOption(1, "2023 Grade 1 Christmas concert")
+
+            var img = document.createElement("img");
+            img.src = "images/2023 x-mas concert.jpg";
+            document.body.appendChild(img);
+    }
      if (xGroupValue == "1A") {
             appendNewOption(1, "St Pius - SK")
             appendNewOption(1, "Austin")
