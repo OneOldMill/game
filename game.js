@@ -50,7 +50,7 @@ function myGroupView() {
             appendNewOption(8, "Georgena")
             appendNewOption(9, "Hedley")
             appendNewOption(10, "Isabel")
-            appendNewOption(11, "Illa H")
+            appendNewOption(11, "Isla H")
             appendNewOption(12, "Julien's birthday is September 26")
             appendNewOption(13, "Lochlan's birthday is October 4")
             appendNewOption(14, "Maisie's birthday is October 23")
