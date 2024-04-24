@@ -439,6 +439,26 @@ function myGroupView() {
             document.body.appendChild(img);
     }
 
+     if (xGroupValue == "15") {
+            appendNewOption(1,"Zebbi")
+            appendNewOption(1,"Hugh")
+            appendNewOption(2,"Keroin")
+            appendNewOption(3,"Damian")
+            appendNewOption(4,"Damian M")
+            appendNewOption(5,"Graham")
+            appendNewOption(6,"Kauner")
+            appendNewOption(7,"Anthony")
+            appendNewOption(8,"Ronnen G2")
+            appendNewOption(9,"Ryan G3")
+            appendNewOption(10,"Lucas G3")
+            appendNewOption(11,"Hudson G3")
+            appendNewOption(12,"Charlie G5")
+            appendNewOption(13,"Douclin G6")
+
+            var img = document.createElement("img");
+            img.src = "images/school_friends.jpg";
+            document.body.appendChild(img);
+    }
     return false;
 }
 
