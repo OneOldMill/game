@@ -199,7 +199,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "5") {
-            appendNewOption(1,"Lego list")
+            appendNewOption(1,"Lego 2023 list")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Billy")
             appendNewOption(3,"Issac")
@@ -459,6 +459,27 @@ function myGroupView() {
             img.src = "images/school_friends.jpg";
             document.body.appendChild(img);
     }
+
+
+     if (xGroupValue == "16") {
+            appendNewOption(1,"Lego 2024 list")
+            appendNewOption(1,"Austin")
+            appendNewOption(2,"Alexandra")
+            appendNewOption(3,"Wolfe")
+            appendNewOption(4,"Julien")
+            appendNewOption(5,"Julie-instructor")
+            appendNewOption(6,"Max-instructor")
+            appendNewOption(7,"Max")
+            appendNewOption(8,"Sebastien")
+            appendNewOption(9,"Sobby")
+            appendNewOption(10,"Zane")
+            appendNewOption(11,"Zax")
+
+            var img = document.createElement("img");
+            img.src = "images/lego.jpg";
+            document.body.appendChild(img);
+    }
+
     return false;
 }
 
