@@ -471,9 +471,11 @@ function myGroupView() {
             appendNewOption(6,"Max-instructor")
             appendNewOption(7,"Max")
             appendNewOption(8,"Sebastien")
-            appendNewOption(9,"Sobby")
+            appendNewOption(9,"Rebecca")
             appendNewOption(10,"Zane")
             appendNewOption(11,"Zax")
+            appendNewOption(12,"Cammy")
+            appendNewOption(13,"Gabin")
 
             var img = document.createElement("img");
             img.src = "images/lego.jpg";
