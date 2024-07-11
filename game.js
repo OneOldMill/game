@@ -460,7 +460,6 @@ function myGroupView() {
             document.body.appendChild(img);
     }
 
-
      if (xGroupValue == "16") {
             appendNewOption(1,"Lego 2024 list")
             appendNewOption(1,"Austin")
@@ -476,6 +475,7 @@ function myGroupView() {
             appendNewOption(11,"Zax")
             appendNewOption(12,"Cammy")
             appendNewOption(13,"Gabin")
+            appendNewOption(14,"Jackson")
 
             var img = document.createElement("img");
             img.src = "images/lego.jpg";
