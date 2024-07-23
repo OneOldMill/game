@@ -392,7 +392,7 @@ function myGroupView() {
     }
 
      if (xGroupValue == "12") {
-            appendNewOption(1,"Jack of Sports list")
+            appendNewOption(1,"Jack of Sports list 2023")
             appendNewOption(1,"Alexander")
             appendNewOption(2,"Ben")
             appendNewOption(3,"Blake")
@@ -477,12 +477,25 @@ function myGroupView() {
             appendNewOption(13,"Gabin")
             appendNewOption(14,"Jackson")
             appendNewOption(15,"Ella")
-            appendNewOption(16,"Seddy")
+            appendNewOption(16,"Sebby")
             appendNewOption(17,"Leo D")
             appendNewOption(18,"Leo J")
 
             var img = document.createElement("img");
             img.src = "images/lego.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "17") {
+            appendNewOption(1,"Jack of Sports list 2024")
+            appendNewOption(1,"Austin")
+            appendNewOption(2,"Sophy - Coach/instructor")
+            appendNewOption(3,"Marina - Coach/instructor")
+            appendNewOption(4,"Cole")
+            appendNewOption(5,"Max")
+
+            var img = document.createElement("img");
+            img.src = "images/jackofsports2024.jpg";
             document.body.appendChild(img);
     }
 
