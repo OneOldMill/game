@@ -493,6 +493,9 @@ function myGroupView() {
             appendNewOption(3,"Marina - Coach/instructor")
             appendNewOption(4,"Cole")
             appendNewOption(5,"Max")
+            appendNewOption(6,"Sophy")
+            appendNewOption(7,"Charlie")
+            appendNewOption(8,"Satiago")
 
             var img = document.createElement("img");
             img.src = "images/jackofsports2024.jpg";
