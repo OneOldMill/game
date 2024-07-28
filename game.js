@@ -509,6 +509,17 @@ function myGroupView() {
             document.body.appendChild(img);
     }
 
+     if (xGroupValue == "18") {
+            appendNewOption(1,"Neighborhood friends")
+            appendNewOption(1,"Austin")
+            appendNewOption(2,"Olivia")
+            appendNewOption(3,"Joey")
+
+            var img = document.createElement("img");
+            img.src = "images/39Harshaw.jpg";
+            document.body.appendChild(img);
+    }
+
     return false;
 }
 
