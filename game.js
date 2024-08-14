@@ -510,6 +510,19 @@ function myGroupView() {
     }
 
      if (xGroupValue == "18") {
+            appendNewOption(1,"Jack of Sports list 2024 - Chess")
+            appendNewOption(1,"Austin")
+            appendNewOption(2,"Daniel - Coach/instructor")
+            appendNewOption(3,"Mateo - Coach/instructor")
+            appendNewOption(4,"Austin P.")
+            appendNewOption(5,"Julia")
+
+            var img = document.createElement("img");
+            img.src = "images/jackofsports2024_chess.jpg";
+            document.body.appendChild(img);
+    }
+
+     if (xGroupValue == "19") {
             appendNewOption(1,"Neighborhood friends")
             appendNewOption(1,"Austin")
             appendNewOption(2,"Olivia")
