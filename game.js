@@ -38,6 +38,34 @@ function myGroupView() {
     // using the function:
     removeOptions(document.getElementById('myFriendList'));
 
+     if (xGroupValue == "200") {
+            appendNewOption(1, "St Pius - Grade 2")
+            appendNewOption(1, "Austin")
+            appendNewOption(2, "Paul")
+            appendNewOption(3, "Hudson")
+            appendNewOption(4, "Julien")
+            appendNewOption(5, "Maji")
+            appendNewOption(6, "Isabel")
+            appendNewOption(7, "Kennedy")
+            appendNewOption(8, "Liliana")
+            appendNewOption(9, "Olivia")
+            appendNewOption(10, "Londen")
+            appendNewOption(11, "Graham")
+            appendNewOption(12, "Henry")
+            appendNewOption(13, "Christian")
+            appendNewOption(14, "Lucas")
+            appendNewOption(15, "Maria")
+            appendNewOption(16, "Maya")
+            appendNewOption(17, "Illa H")
+            appendNewOption(18, "Felix")
+            appendNewOption(19, "Evelen")
+            appendNewOption(20, "Fillier-t")
+
+            var img = document.createElement("img");
+            img.src = "images/grade2.jpg";
+            document.body.appendChild(img);
+    }
+
      if (xGroupValue == "1") {
             appendNewOption(1, "St Pius - Grade 1")
             appendNewOption(1, "1 Austin Alfonsi's birthday is October 2")
