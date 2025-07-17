@@ -38,6 +38,33 @@ function myGroupView() {
     // using the function:
     removeOptions(document.getElementById('myFriendList'));
 
+  if (xGroupValue == "210") {
+    appendNewOption(1, "Tennis 2025")
+    appendNewOption(1, "Austin")
+    appendNewOption(2, "Remy(3)")
+    appendNewOption(3, "Zebby(5)")
+    appendNewOption(4, "Nolan(7)")
+    appendNewOption(5, "Sophia")
+    appendNewOption(6, "Brice(3)")
+    appendNewOption(7, "Hudson(5)")
+    appendNewOption(8, "Dart")
+    appendNewOption(9, "Henry")
+    appendNewOption(10, "Wyat")
+    appendNewOption(11, "Alise")
+    appendNewOption(12, "Atlas")
+    appendNewOption(13, "Jane")
+    appendNewOption(14, "Kane")
+    appendNewOption(15, "Karen")
+    appendNewOption(16, "Aila")
+    appendNewOption(17, "Camelet(v)")
+    appendNewOption(18, "Pearson(v)")
+    appendNewOption(19, "Gary(i)")
+
+    var img = document.createElement("img");
+    img.src = "images/tennis_2025.png";
+    document.body.appendChild(img);
+  }
+
      if (xGroupValue == "200") {
             appendNewOption(1, "St Pius - Grade 2")
             appendNewOption(1, "Austin")
