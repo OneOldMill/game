@@ -38,6 +38,30 @@ function myGroupView() {
     // using the function:
     removeOptions(document.getElementById('myFriendList'));
 
+  if (xGroupValue == "230") {
+    appendNewOption(1, "Secret Agents - Maple Leaf Summer Camp 2025")
+    appendNewOption(1, "Austin")
+    appendNewOption(1, "Austin")
+    appendNewOption(2, "Christian")
+    appendNewOption(3, "Patrick")
+    appendNewOption(4, "Tyler")
+    appendNewOption(5, "Veronica")
+    appendNewOption(6, "Victoria")
+    appendNewOption(7, "Sofia")
+    appendNewOption(8, "Julia")
+    appendNewOption(9, "Ella")
+    appendNewOption(10, "Ivey")
+    appendNewOption(11, "Illianna")
+    appendNewOption(12, "Alianna")
+    appendNewOption(13, "Hudson x 2")
+    appendNewOption(14, "Dylan")
+    appendNewOption(15, "Dylan’s sister")
+
+    var img = document.createElement("img");
+    img.src = "images/secret_agents.jpg";
+    document.body.appendChild(img);
+  }
+
   if (xGroupValue == "220") {
     appendNewOption(1, "Tennis 2025W2")
     appendNewOption(1, "Austin")
