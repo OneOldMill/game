@@ -41,7 +41,6 @@ function myGroupView() {
   if (xGroupValue == "230") {
     appendNewOption(1, "Secret Agents - Maple Leaf Summer Camp 2025")
     appendNewOption(1, "Austin")
-    appendNewOption(1, "Austin")
     appendNewOption(2, "Christian")
     appendNewOption(3, "Patrick")
     appendNewOption(4, "Tyler")
