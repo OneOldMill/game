@@ -38,6 +38,27 @@ function myGroupView() {
     // using the function:
     removeOptions(document.getElementById('myFriendList'));
 
+  if (xGroupValue == "310") {
+    appendNewOption(1, "MLB 2025 Play-off")
+    var img = document.createElement("img");
+    img.src = "images/mlb_2025.png";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "311") {
+    appendNewOption(1, "MLB 2025 Play-off: National League")
+    var img = document.createElement("img");
+    img.src = "images/mlb_2025_nl.png";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "312") {
+    appendNewOption(1, "MLB 2025 Play-off: Eastern Lerague")
+    var img = document.createElement("img");
+    img.src = "images/mlb_2025_el.png";
+    document.body.appendChild(img);
+  }
+
   if (xGroupValue == "300") {
     appendNewOption(1, "2025 Grade 3 & 4")
     appendNewOption(1, "Austin A")
@@ -126,7 +147,6 @@ function myGroupView() {
 
   if (xGroupValue == "1C") {
     appendNewOption(1, "2023 Grade 1 Christmas concert")
-
     var img = document.createElement("img");
     img.src = "images/2023 x-mas concert.jpg";
     document.body.appendChild(img);
@@ -246,11 +266,10 @@ function myGroupView() {
   }
 
   if (xGroupValue == "2A") {
-        appendNewOption(1, "Sign Language list")
-
-        var img = document.createElement("img");
-    img.src = "images/sign_language.png";
-        document.body.appendChild(img);
+      appendNewOption(1, "Sign Language list")
+      var img = document.createElement("img");
+      img.src = "images/sign_language.png";
+      document.body.appendChild(img);
   }
 
   if (xGroupValue == "2") {
