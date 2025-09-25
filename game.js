@@ -53,9 +53,9 @@ function myGroupView() {
   }
 
   if (xGroupValue == "312") {
-    appendNewOption(1, "MLB 2025 Play-off: Eastern Lerague")
+    appendNewOption(1, "MLB 2025 Play-off: American Lerague")
     var img = document.createElement("img");
-    img.src = "images/mlb_2025_el.png";
+    img.src = "images/mlb_2025_al.png";
     document.body.appendChild(img);
   }
 
