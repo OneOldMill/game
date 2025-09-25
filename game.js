@@ -38,6 +38,141 @@ function myGroupView() {
     // using the function:
     removeOptions(document.getElementById('myFriendList'));
 
+  if (xGroupValue == "300") {
+    appendNewOption(1, "2025 Grade 3 & 4")
+    appendNewOption(1, "Austin A")
+    appendNewOption(2, "Matteo B")
+    appendNewOption(3, "Remy P")
+    appendNewOption(4, "Lily F")
+    appendNewOption(5, "Maya")
+    appendNewOption(6, "Emma")
+    appendNewOption(7, "Paul M")
+    appendNewOption(8, "Cloe L")
+    appendNewOption(9, "Lilyana")
+    appendNewOption(10, "James")
+    appendNewOption(11, "Ronan")
+    appendNewOption(12, "Gaby")
+    appendNewOption(13, "Mable")
+    appendNewOption(14, "Ceraphena")
+    appendNewOption(15, "Elisa")
+    appendNewOption(16, "Lucas R")
+    appendNewOption(17, "William B")
+    appendNewOption(18, "Grapham C")
+    appendNewOption(19, "Helen R")
+    appendNewOption(20, "Christian R")
+    appendNewOption(21, "Clark K")
+    appendNewOption(22, "Stella")
+    appendNewOption(23, "Lendon L")
+    appendNewOption(24, "Teacher Ms. Ku")
+
+    var img = document.createElement("img");
+    img.src = "images/st_pius_school.png";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "200") {
+    appendNewOption(1, "St Pius - Grade 2")
+    appendNewOption(1, "Austin")
+    appendNewOption(2, "Paul")
+    appendNewOption(3, "Hudson")
+    appendNewOption(4, "Julien")
+    appendNewOption(5, "Maji")
+    appendNewOption(6, "Isabel")
+    appendNewOption(7, "Kennedy")
+    appendNewOption(8, "Liliana")
+    appendNewOption(9, "Olivia")
+    appendNewOption(10, "Londen")
+    appendNewOption(11, "Graham")
+    appendNewOption(12, "Henry")
+    appendNewOption(13, "Christian")
+    appendNewOption(14, "Lucas")
+    appendNewOption(15, "Maria")
+    appendNewOption(16, "Maya")
+    appendNewOption(17, "Illa H")
+    appendNewOption(18, "Felix")
+    appendNewOption(19, "Evelen")
+    appendNewOption(20, "Fillier-t")
+
+    var img = document.createElement("img");
+    img.src = "images/grade2.jpg";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "1") {
+    appendNewOption(1, "St Pius - Grade 1")
+    appendNewOption(1, "1 Austin Alfonsi's birthday is October 2")
+    appendNewOption(2, "2 Ayla Briffa's birthday is November 11-Poppy Day")
+    appendNewOption(3, "3 Charlotte Currie's birthday is April 6")
+    appendNewOption(4, "4 Chloe Brown's birthday is December 1")
+    appendNewOption(5, "5 Chloe Lombardo's birthday is March 23")
+    appendNewOption(6, "6 Ellanora Sousa's birthday is August 22 ")
+    appendNewOption(7, "7 Ella Pastor's birthday is August 6")
+    appendNewOption(8, "8 Georgena Hobbis's birthday is April 7")
+    appendNewOption(9, "9 Hedley Rafferty's birthday is August 9")
+    appendNewOption(10, "10 Isabel Meier's birthday is May 7")
+    appendNewOption(11, "11 Isla Hopkins's birthday is August 2")
+    appendNewOption(12, "12 Julien Guy hadduck's birthday is September 26")
+    appendNewOption(13, "13 Lochlan Mc man's birthday is October 4")
+    appendNewOption(14, "14 Maisie Mc crakan's birthday is October 23")
+    appendNewOption(15, "15 Paul Mclaughlin miranda's birthday is May 28")
+    appendNewOption(16, "16 Remy Payne's birthday is March 14")
+    appendNewOption(17, "17 Matteo Biggart's birthday is February 11")
+    appendNewOption(18, "18 Lucas Sambrske's birthday is August 23")
+
+    var img = document.createElement("img");
+    img.src = "images/grade1.jpg";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "1C") {
+    appendNewOption(1, "2023 Grade 1 Christmas concert")
+
+    var img = document.createElement("img");
+    img.src = "images/2023 x-mas concert.jpg";
+    document.body.appendChild(img);
+  }
+
+  if (xGroupValue == "1A") {
+    appendNewOption(1, "St Pius - SK")
+    appendNewOption(1, "Austin")
+    appendNewOption(2, "Austin2")
+    appendNewOption(3, "Amelia")
+    appendNewOption(4, "Adrian")
+    appendNewOption(5, "Aria")
+    appendNewOption(6, "Athena")
+    appendNewOption(7, "Ayla")
+    appendNewOption(8, "Bianca")
+    appendNewOption(9, "Cloe")
+    appendNewOption(10, "Colin")
+    appendNewOption(11, "Charlotte")
+    appendNewOption(12, "Desmond")
+    appendNewOption(13, "Ella")
+    appendNewOption(14, "Ellanora")
+    appendNewOption(15, "Felix")
+    appendNewOption(16, "Hedley")
+    appendNewOption(17, "Hudson")
+    appendNewOption(18, "Julien")
+    appendNewOption(19, "Kennedy")
+    appendNewOption(20, "Liliana")
+    appendNewOption(21, "Lochlan")
+    appendNewOption(22, "Leila")
+    appendNewOption(23, "Leo")
+    appendNewOption(24, "Luca")
+    appendNewOption(25, "Mateo")
+    appendNewOption(26, "Meloni")
+    appendNewOption(27, "Owen")
+    appendNewOption(28, "Odhran")
+    appendNewOption(29, "Wyatt")
+    appendNewOption(30, "Dempsi-t")
+    appendNewOption(31, "Ierullo-t")
+    appendNewOption(32, "2022 JK SK")
+    appendNewOption(33, "2023 JK SK")
+
+    var img = document.createElement("img");
+    img.src = "images/st pius.jpg";
+    document.body.appendChild(img);
+  }
+
   if (xGroupValue == "230") {
     appendNewOption(1, "Secret Agents - Maple Leaf Summer Camp 2025")
     appendNewOption(1, "Austin")
@@ -110,128 +245,29 @@ function myGroupView() {
     document.body.appendChild(img);
   }
 
-     if (xGroupValue == "200") {
-            appendNewOption(1, "St Pius - Grade 2")
-            appendNewOption(1, "Austin")
-            appendNewOption(2, "Paul")
-            appendNewOption(3, "Hudson")
-            appendNewOption(4, "Julien")
-            appendNewOption(5, "Maji")
-            appendNewOption(6, "Isabel")
-            appendNewOption(7, "Kennedy")
-            appendNewOption(8, "Liliana")
-            appendNewOption(9, "Olivia")
-            appendNewOption(10, "Londen")
-            appendNewOption(11, "Graham")
-            appendNewOption(12, "Henry")
-            appendNewOption(13, "Christian")
-            appendNewOption(14, "Lucas")
-            appendNewOption(15, "Maria")
-            appendNewOption(16, "Maya")
-            appendNewOption(17, "Illa H")
-            appendNewOption(18, "Felix")
-            appendNewOption(19, "Evelen")
-            appendNewOption(20, "Fillier-t")
+  if (xGroupValue == "2A") {
+        appendNewOption(1, "Sign Language list")
 
-            var img = document.createElement("img");
-            img.src = "images/grade2.jpg";
-            document.body.appendChild(img);
-    }
+        var img = document.createElement("img");
+    img.src = "images/sign_language.png";
+        document.body.appendChild(img);
+  }
 
-     if (xGroupValue == "1") {
-            appendNewOption(1, "St Pius - Grade 1")
-            appendNewOption(1, "1 Austin Alfonsi's birthday is October 2")
-            appendNewOption(2, "2 Ayla Briffa's birthday is November 11-Poppy Day")
-            appendNewOption(3, "3 Charlotte Currie's birthday is April 6")
-            appendNewOption(4, "4 Chloe Brown's birthday is December 1")
-            appendNewOption(5, "5 Chloe Lombardo's birthday is March 23")
-            appendNewOption(6, "6 Ellanora Sousa's birthday is August 22 ")
-            appendNewOption(7, "7 Ella Pastor's birthday is August 6")
-            appendNewOption(8, "8 Georgena Hobbis's birthday is April 7")
-            appendNewOption(9, "9 Hedley Rafferty's birthday is August 9")
-            appendNewOption(10, "10 Isabel Meier's birthday is May 7")
-            appendNewOption(11, "11 Isla Hopkins's birthday is August 2")
-            appendNewOption(12, "12 Julien Guy hadduck's birthday is September 26")
-            appendNewOption(13, "13 Lochlan Mc man's birthday is October 4")
-            appendNewOption(14, "14 Maisie Mc crakan's birthday is October 23")
-            appendNewOption(15, "15 Paul Mclaughlin miranda's birthday is May 28")
-            appendNewOption(16, "16 Remy Payne's birthday is March 14")
-            appendNewOption(17, "17 Matteo Biggart's birthday is February 11")
-            appendNewOption(18, "18 Lucas Sambrske's birthday is August 23")
+  if (xGroupValue == "2") {
+        appendNewOption(1, "Paw Patrol list")
+        appendNewOption(1, "Ryder")
+        appendNewOption(2, "Skye")
+        appendNewOption(3, "Rocky")
+        appendNewOption(4, "Rubble")
+        appendNewOption(5, "Zuma")
+        appendNewOption(6, "Marshall")
+        appendNewOption(7, "Chase")
+        appendNewOption(8, "Everest")
+        appendNewOption(9, "Garfield")
 
-            var img = document.createElement("img");
-            img.src = "images/grade1.jpg";
-            document.body.appendChild(img);
-    }
-     if (xGroupValue == "1C") {
-            appendNewOption(1, "2023 Grade 1 Christmas concert")
-
-            var img = document.createElement("img");
-            img.src = "images/2023 x-mas concert.jpg";
-            document.body.appendChild(img);
-    }
-     if (xGroupValue == "1A") {
-            appendNewOption(1, "St Pius - SK")
-            appendNewOption(1, "Austin")
-            appendNewOption(2, "Austin2")
-            appendNewOption(3,  "Amelia")
-            appendNewOption(4, "Adrian")
-            appendNewOption(5, "Aria")
-            appendNewOption(6, "Athena")
-            appendNewOption(7, "Ayla")
-            appendNewOption(8, "Bianca")
-            appendNewOption(9, "Cloe")
-            appendNewOption(10, "Colin")
-            appendNewOption(11, "Charlotte")
-            appendNewOption(12, "Desmond")
-            appendNewOption(13, "Ella")
-            appendNewOption(14, "Ellanora")
-            appendNewOption(15, "Felix")
-            appendNewOption(16, "Hedley")
-            appendNewOption(17, "Hudson")
-            appendNewOption(18, "Julien")
-            appendNewOption(19, "Kennedy")
-            appendNewOption(20, "Liliana")
-            appendNewOption(21, "Lochlan")
-            appendNewOption(22, "Leila")
-            appendNewOption(23, "Leo")
-            appendNewOption(24, "Luca")
-            appendNewOption(25, "Mateo")
-            appendNewOption(26, "Meloni")
-            appendNewOption(27, "Owen")
-            appendNewOption(28, "Odhran")
-            appendNewOption(29, "Wyatt")
-            appendNewOption(30, "Dempsi-t")
-            appendNewOption(31, "Ierullo-t")
-            appendNewOption(32, "2022 JK SK")
-            appendNewOption(33, "2023 JK SK")
-
-            var img = document.createElement("img");
-            img.src = "images/st pius.jpg";
-            document.body.appendChild(img);
-    }
-     if (xGroupValue == "2A") {
-            appendNewOption(1, "Sign Language list")
-
-            var img = document.createElement("img");
-            img.src = "images/sign language.jpg";
-            document.body.appendChild(img);
-    }
-     if (xGroupValue == "2") {
-            appendNewOption(1, "Paw Patrol list")
-            appendNewOption(1, "Ryder")
-            appendNewOption(2, "Skye")
-            appendNewOption(3, "Rocky")
-            appendNewOption(4, "Rubble")
-            appendNewOption(5, "Zuma")
-            appendNewOption(6, "Marshall")
-            appendNewOption(7, "Chase")
-            appendNewOption(8, "Everest")
-            appendNewOption(9, "Garfield")
-
-            var img = document.createElement("img");
-            img.src = "images/ryder.jpg";
-            document.body.appendChild(img);
+        var img = document.createElement("img");
+        img.src = "images/ryder.jpg";
+        document.body.appendChild(img);
     }
 
     if (xGroupValue == "3") {
