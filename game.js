@@ -1,4 +1,4 @@
-function clickMe() {
+﻿function clickMe() {
   alert("You clicked me!");
 }
 
@@ -209,7 +209,7 @@ function myGroupView() {
     appendNewOption(12, "Alianna")
     appendNewOption(13, "Hudson x 2")
     appendNewOption(14, "Dylan")
-    appendNewOption(15, "Dylan�s sister")
+    appendNewOption(15, "Dylan’s sister")
 
     var img = document.createElement("img");
     img.src = "images/secret_agents.jpg";
@@ -731,11 +731,21 @@ function myImageView() {
 //     open(myImageFile, '_blank', "School");
 }
 
-function myLinkView() {
+function myLinkView_old() {
      //alert("myLinkView v"+ver);
      var myLinkList = document.getElementById("myLinkList");
      var value = myLinkList.options[myLinkList.selectedIndex].value;
      var text = myLinkList.options[myLinkList.selectedIndex].text;
      var  addr='https://' + value;
      window.open(addr, '_blank', "Game Attendance");
+}
+
+function myLinkView() {
+  var myLinkList = document.getElementById("myLinkList");
+  var value = myLinkList.value;
+
+  if (value) {
+    var addr = 'https://' + value;
+    window.location.href = addr;   // ✅ works on iPad
+  }
 }
